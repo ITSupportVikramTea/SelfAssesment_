@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "strong-harbor-427510-q4",
+  "private_key_id": "e89dd4cc12972f4fb44336c1e6f6de6278a4734b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCutx6yLG8Kfjrk\nlbzA1EC7Xj9nMeOD9SFOI/Vdfcu0XUKSy8D+5NzAD8FKPrVRcR3HiLPOUjEDmXKz\n87LRsVksXNpvOn21vDgc/eTBtAmVTo6v+DhIbc+Ow/EfCqKUZXps7CWjFPK56yg1\nwFVrl0f6OoOS/c8N65kihafkNbsJubmDJauNG4ibN5x6kigxkEuCmZNJf9khxhQT\nHMWllPg12Z1sT1uVWmqSfyNhPR2hwPQziSj2zAdDsK7M0vflJVrNmJDgbhMljoz6\noApOMMqnwItzJ6IM81zagU508Y58xzWQHViU5AwBd7DcAOwq+XlmBBtH847c03Uw\nVYHetUVhAgMBAAECggEAASxJkHir5i4ixxYaRlEmfhuL4W18UY57wsKLCy2lCHj3\n0XR8vzlaIg/5BD6XiQxxXr2UN3Zlzdhh5MNmF/JQ3vNgpA6IeYfh+I/b0VEcH1x/\nqL7J4fKayiKWo9a2cLidsc2EEyw41Pa3NmUsLaS+Xve1mm8JzNYgGRM8pVOXBeGu\nfg2AdXw72nNVA/ZnzOff+tTxOuNsjCd00EaAUkhQXNrMSbhWOdt1ruU42IKmYQhW\nOUFwBUqrpJc279mANgMVbUpGeeSoMD58V2bEmJMMIKfbXAIY2C93NdflQD3ARNJT\nCgwG/KWB72qwSzTH9IdhZmHOukC8EmPdAobAQymaYQKBgQDXc6T1VIsbzbZzf+KC\nbtaqtqY/XNwgRgXgEwCaK+YCyxXHnXC51dG0adwjrtYvXSmRTpz7c4+PAqfzVb2u\nNRkM0RS33f7NCLWBQ3KEItmoG7m0FmJBG85TvfOluv6O1Uck3KAfLKpelXGjjHda\nel2nZ6/J3w4CWmROv3Zc43+AmwKBgQDPmNC0e6brPbAEJz2/wun8UBGL4J9lUnCD\nSKd1fffkcjwwRTJx7RlFFFQFq7a0RVanyTFA3sLoZJugFRVAqXoDS9DInt3FlqMt\nhtLDD57fOpTLzfXBXATOKwmIEKOTGlro6+MF0Ko2MXqVhHB1AB9aRu+ZhSMIXTxM\nnTqc4tobswKBgFByrvqoGdVE58aSzuozJtbRopvwOYWXf+QeVFA86gLLABPsFsZd\nL5N1H6z3QKSo3beTKgy+JrGYpUu4DT56NyNRArJxIw4+HT/qBl2OgcVCrQGwhfmX\nv2AHgm20uA5vVsRN2UAqtmbg2HDgJ0TSghvbHIl9T0bTp7a7yR+AFwDXAoGAN6r8\n3EkEO7SxDIwRTOjRoe0+p0m2tI7kyO+kqCb9YG8ZoMANhOtViWaoGVUwiyrEz/1t\njb2uem7wJH9C0bIgm92qwQGI6sE4RK8QuWno6mdlGznBmvY3+6kixy/fDUVV93u5\nxwdrfVjLTGjVVyqPPcAj5AEFoeqOjuTioMtcPW0CgYBVi3QZhwnawkXp7yeaU13H\n5uVOrzA7j5yct1SAO322643Xjv9R+f1hJ/nNZh2csnB934jjVn9FDywYFcDp5h/V\naWCZRxUNhnxLvP7qr3u3LsO2zxnwR83/wec2dqH2ZIqLVlGTwYPse286JWZ1EEQ+\nZVF1+0t5rbEoxSHVurCkGg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "imagestore@strong-harbor-427510-q4.iam.gserviceaccount.com",
+  "client_id": "105340592755785491799",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/imagestore%40strong-harbor-427510-q4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

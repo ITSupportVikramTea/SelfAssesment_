@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SelfAssessment", ".", "{C2CECA91-C828-47A9-9846-0A9AEC0FB4B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54460"
+		Debug.AspNetCompiler.PhysicalPath = "..\SelfAssessment\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54460\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54460"
+		Release.AspNetCompiler.PhysicalPath = "..\SelfAssessment\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54460\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54460"
+		SlnRelativePath = "..\SelfAssessment\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrated", "..\Migrated\Migrated.csproj", "{728F7254-D265-462D-9851-4C45AB0796A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2CECA91-C828-47A9-9846-0A9AEC0FB4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CECA91-C828-47A9-9846-0A9AEC0FB4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CECA91-C828-47A9-9846-0A9AEC0FB4B5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CECA91-C828-47A9-9846-0A9AEC0FB4B5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{728F7254-D265-462D-9851-4C45AB0796A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728F7254-D265-462D-9851-4C45AB0796A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728F7254-D265-462D-9851-4C45AB0796A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728F7254-D265-462D-9851-4C45AB0796A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBC1E653-BB3B-4834-9643-8257BA6038F9}
+	EndGlobalSection
+EndGlobal

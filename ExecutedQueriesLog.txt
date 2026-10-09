@@ -1,0 +1,2 @@
+INSERT INTO KRAGoalSettings (ERPID, TargetKRA, UOM, UOP, QTarget, Weightage, achievement, score) VALUES (@ERPID, @TargetKRA, @UOM, @UOP, @QTarget, @Weightage, @Achievement, @Score)
+INSERT INTO KRAGoalSettings (ERPID, TargetKRA, UOM, UOP, QTarget, Weightage, achievement, score) VALUES (@ERPID, @TargetKRA, @UOM, @UOP, @QTarget, @Weightage, @Achievement, @Score)

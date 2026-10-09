@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+	<connectionStrings>
+		<add name="DefaultConnection" connectionString="Data Source=172.16.16.2,1433;initial catalog=VTPPLESS;User ID=promoter;Password=Intel@123;Persist Security Info=true" providerName="System.Data.SqlClient" />
+	</connectionStrings>
+	<system.web>
+    <sessionState mode="InProc" cookieless="true" timeout="180"/>
+    <customErrors mode="Off"/>
+    <compilation debug="true" targetFramework="4.0">
+		</compilation>
+		<httpRuntime targetFramework="4.5" requestValidationMode="2.0"/>
+		<pages enableEventValidation="false" validateRequest="false"/>
+
+	</system.web>
+	<appSettings>
+		<add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
+		<!--Email Config-->
+		<add key="FromEmailAddress" value="itsupport@vikramtea.com"/>
+		<add key="FromEmailDisplayName" value="Vikram Tea Processor Pvt. Ltd."/>
+		<add key="FromEmailPassword" value="vtppl@123"/>
+		<add key="SMTPHost" value="mail.vikramtea.com"/>
+		<add key="SMTPPort" value="46587"/>
+	</appSettings>
+</configuration>

@@ -1,0 +1,136 @@
+﻿
+<%@ Page Title="" Language="C#" MasterPageFile="~/Employee/MasterPage.master" AutoEventWireup="true" CodeFile="EmployeeESICLetter.aspx.cs" Inherits="Employee_EmployeeIncrementLetter" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+
+    <style type="text/css">
+        .pagination-ys {
+            /*display: inline-block;*/
+            padding-left: 0;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+            .pagination-ys table > tbody > tr > td {
+                display: inline;
+            }
+
+                .pagination-ys table > tbody > tr > td > a,
+                .pagination-ys table > tbody > tr > td > span {
+                    position: relative;
+                    float: left;
+                    padding: 8px 12px;
+                    line-height: 1.42857143;
+                    text-decoration: none;
+                    color: #dd4814;
+                    background-color: #ffffff;
+                    border: 1px solid #dddddd;
+                    margin-left: -1px;
+                }
+
+                .pagination-ys table > tbody > tr > td > span {
+                    position: relative;
+                    float: left;
+                    padding: 8px 12px;
+                    line-height: 1.42857143;
+                    text-decoration: none;
+                    margin-left: -1px;
+                    z-index: 2;
+                    color: #aea79f;
+                    background-color: #f5f5f5;
+                    border-color: #dddddd;
+                    cursor: default;
+                }
+
+                .pagination-ys table > tbody > tr > td:first-child > a,
+                .pagination-ys table > tbody > tr > td:first-child > span {
+                    margin-left: 0;
+                    border-bottom-left-radius: 4px;
+                    border-top-left-radius: 4px;
+                }
+
+                .pagination-ys table > tbody > tr > td:last-child > a,
+                .pagination-ys table > tbody > tr > td:last-child > span {
+                    border-bottom-right-radius: 4px;
+                    border-top-right-radius: 4px;
+                }
+
+                .pagination-ys table > tbody > tr > td > a:hover,
+                .pagination-ys table > tbody > tr > td > span:hover,
+                .pagination-ys table > tbody > tr > td > a:focus,
+                .pagination-ys table > tbody > tr > td > span:focus {
+                    color: #97310e;
+                    background-color: #eeeeee;
+                    border-color: #dddddd;
+                }
+    </style>
+
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <section class="content-header">
+        <h1>ESIC Letter
+            <small>Master</small>
+            <br />
+
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
+            <li><a href="#">Forms</a></li>
+        </ol>
+    </section>
+
+
+    <section class="content">
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <div class="col-lg-3">
+                    <asp:TextBox ID="txtsearchbox" runat="server"
+                        CssClass="form-control" PlaceHolder="Search Year">
+                    </asp:TextBox>
+                </div>
+                <div class="col-lg-3">
+                    <asp:Button CssClass="btn btn-bitbucket" Text="Search" runat="server" OnClick="Search" />
+                </div>
+            </div>
+            <br />
+            <div class="box-body">
+                <br />
+
+
+                <div class="col-md-12" style="overflow-x: auto">
+                    <asp:GridView ID="gdIncLetter" runat="server" class="table table-striped table-bordered table-hover"
+                        DataKeyNames="Id" OnRowCommand="gdIncLetter_RowCommand" AllowPaging="true" OnRowDataBound="OnRowDataBound"
+                        OnPageIndexChanging="OnPageIndexChanging" PageSize="6"
+                        AutoGenerateColumns="false">
+                        <Columns>
+                            <asp:BoundField DataField="EmpName" HeaderText="Full Name" ItemStyle-Width="250" />
+                            <asp:BoundField DataField="EmpDepartment" HeaderText="Department" ItemStyle-Width="250" />
+                            <asp:BoundField DataField="EmpDesignation" HeaderText="Designation" ItemStyle-Width="250" />
+
+
+                            <asp:TemplateField HeaderText="ESIC Letter">
+                                <ItemTemplate>
+                                    <div class="btn-group">
+                                        <asp:Button Text="Download" ID="IncLetter" runat="server" CssClass="btn btn-primary " CommandName="download" CommandArgument='<%# Eval("ESICLetter") %>' />
+                                        </button>
+                                    </div>
+                                </ItemTemplate>
+                            </asp:TemplateField>
+
+                            <asp:BoundField DataField="Year" HeaderText="Year" ItemStyle-Width="250" />
+
+                            
+                        </Columns>
+                        <PagerStyle HorizontalAlign="Right" CssClass="pagination-ys" />
+                    </asp:GridView>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</asp:Content>
